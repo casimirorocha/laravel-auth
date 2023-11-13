@@ -2,9 +2,9 @@
 
 namespace Casimiro\LaravelAuth\Tests;
 
+use Casimiro\LaravelAuth\LaravelAuthServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Casimiro\LaravelAuth\LaravelAuthServiceProvider;
 
 class TestCase extends Orchestra
 {

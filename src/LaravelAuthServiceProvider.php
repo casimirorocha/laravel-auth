@@ -2,9 +2,9 @@
 
 namespace Casimiro\LaravelAuth;
 
+use Casimiro\LaravelAuth\Commands\LaravelAuthCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Casimiro\LaravelAuth\Commands\LaravelAuthCommand;
 
 class LaravelAuthServiceProvider extends PackageServiceProvider
 {
